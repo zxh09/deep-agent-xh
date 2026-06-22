@@ -202,7 +202,7 @@ ${this.config.systemPrompt}`;
       }
     }
 
-    console.log(`${"=".repeat(50)}`);
+    console.log(`\n${"=".repeat(50)}`);
 
     this.conversationHistory.push({
       role: "assistant",
