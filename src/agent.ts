@@ -258,7 +258,7 @@ ${this.config.systemPrompt}`;
   }
 
   // 获取沙箱信息
-  getSandBox(): SandboxConfig | null {
+  getSandBox(): SandboxContent | null {
     return this.sandbox;
   }
 
