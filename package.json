@@ -1,0 +1,28 @@
+{
+  "name": "deep-agent-xh",
+  "version": "1.0.0",
+  "description": "通用型AI智能体",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "dev": "npm run build && node dist/index.js",
+    "demo:basic": "npm run build && node dist/demo-basic.js",
+    "demo:search": "npm run build && node dist/demo-search.js",
+    "demo:multi": "npm run build && node dist/demo-multi-agent.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "fs-extra": "^11.3.5",
+    "openai": "^6.44.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^26.0.0",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}
